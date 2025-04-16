@@ -72,6 +72,8 @@ class Mic {
                     console.log("getUserMedia not supported on your browser!");
                 }
 
+                this.btn.style.display = "none";
+
             }
 
         }
